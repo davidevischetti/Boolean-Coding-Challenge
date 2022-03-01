@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+}
+
+body {
+    background-image: url(./immagini/background.jpg);
+    background-size: cover;
+}
+
+#homepage {
+    width: 66%;   
+    margin: 2% auto;
+    border-radius: 30px;
+    padding: 4%;
+    background-color: rgba(0, 0, 0, 0.4)
+}
+
+#logo {
+    width: 25%;
+    height: 25%;
+    background-size: contain;
+    margin: 0 40%;
+}
+
+header>h1 {
+    color: rgb(0, 220, 0);
+    text-align: center;
+}
+
+.booking {
+    background-color: rgb(0, 255, 0);
+    padding: 5px;
+    text-align: center;
+    margin: 5px auto;
+}
+
+div .booking>button {
+   font-weight: bold;
+}
+
+.scooter {
+    margin-top: 2%;
+}
+
+div .scooter>span, h3 {
+    display: block;
+    color: white;
+    margin: 10px;
+    font-weight: bold;
+}
+
+span.position:before {
+    content: "\21A6";
+}
+
+.charge {
+    height: 25px;
+    border-radius: 5px;
+    margin: 10px;    
+}
+
+.low {
+    width: 20%;
+    background-color: rgb(150, 0, 0);
+}
+
+.medium {
+    width: 45%;
+    background-color: rgb(200, 100, 0);
+}
+
+.full {
+    width: 80%;
+    background-color: rgb(0, 150, 0);
+}
